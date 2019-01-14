@@ -4,8 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "got": "^9.5.0",
+    "firebase": "^5.7.2",
+    "firebase-admin": "^6.4.0",
+    "got": "^9.5.1",
+    "karin": "^0.11.1",
+    "luxon": "^1.9.0",
     "node-fetch": "^2.3.0",
-    "server": "^1.0.18"
+    "server": "^1.0.18",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/luxon": "^1.4.1",
+    "@types/node": "^10.12.18",
+    "@types/server": "^1.0.0",
+    "@types/xml2js": "^0.4.3"
   }
 }
